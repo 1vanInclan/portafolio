@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/portafolio-react-tailwind/static/css/main.e6d24f33.css",
-    "main.js": "/portafolio-react-tailwind/static/js/main.17f8643b.js",
-    "static/media/p1.jpg": "/portafolio-react-tailwind/static/media/p1.1d71fd9261bae50cf128.jpg",
-    "static/media/BigData.pdf": "/portafolio-react-tailwind/static/media/BigData.c736de28c698b02c9a72.pdf",
-    "static/media/IntroBBDD.pdf": "/portafolio-react-tailwind/static/media/IntroBBDD.2ececa5d04695879ce36.pdf",
-    "static/media/p3.png": "/portafolio-react-tailwind/static/media/p3.8e9f116b4858ac0e1c4e.png",
-    "static/media/ajolote.png": "/portafolio-react-tailwind/static/media/ajolote.0d26bb0bfbacb7f763c8.png",
-    "static/media/p8.png": "/portafolio-react-tailwind/static/media/p8.aa5ff631ffd4d86f14ae.png",
-    "static/media/p4.png": "/portafolio-react-tailwind/static/media/p4.833742e778c22c5f13bf.png",
-    "static/media/p7.png": "/portafolio-react-tailwind/static/media/p7.e8d1b0fc4971394034ed.png",
-    "static/media/p2.png": "/portafolio-react-tailwind/static/media/p2.2ce2107bec54a67a0a87.png",
-    "static/media/p5.png": "/portafolio-react-tailwind/static/media/p5.abbd6a98c9b603a0dc03.png",
-    "static/media/p6.png": "/portafolio-react-tailwind/static/media/p6.b4f0848722e038e44925.png",
-    "static/media/p9.png": "/portafolio-react-tailwind/static/media/p9.57eb8f13d70499849e24.png",
-    "static/media/cv.pdf": "/portafolio-react-tailwind/static/media/cv.5475b733ae80ddb44aab.pdf",
-    "index.html": "/portafolio-react-tailwind/index.html",
-    "static/media/wallpaper5.svg": "/portafolio-react-tailwind/static/media/wallpaper5.a500b855e5f6f10c34af59d3ad7be5c5.svg",
-    "main.e6d24f33.css.map": "/portafolio-react-tailwind/static/css/main.e6d24f33.css.map",
-    "main.17f8643b.js.map": "/portafolio-react-tailwind/static/js/main.17f8643b.js.map"
+    "main.css": "/portafolio/static/css/main.e6d24f33.css",
+    "main.js": "/portafolio/static/js/main.4b809c19.js",
+    "static/media/p1.jpg": "/portafolio/static/media/p1.1d71fd9261bae50cf128.jpg",
+    "static/media/BigData.pdf": "/portafolio/static/media/BigData.c736de28c698b02c9a72.pdf",
+    "static/media/IntroBBDD.pdf": "/portafolio/static/media/IntroBBDD.2ececa5d04695879ce36.pdf",
+    "static/media/p3.png": "/portafolio/static/media/p3.8e9f116b4858ac0e1c4e.png",
+    "static/media/ajolote.png": "/portafolio/static/media/ajolote.0d26bb0bfbacb7f763c8.png",
+    "static/media/p8.png": "/portafolio/static/media/p8.aa5ff631ffd4d86f14ae.png",
+    "static/media/p4.png": "/portafolio/static/media/p4.833742e778c22c5f13bf.png",
+    "static/media/p7.png": "/portafolio/static/media/p7.e8d1b0fc4971394034ed.png",
+    "static/media/p2.png": "/portafolio/static/media/p2.2ce2107bec54a67a0a87.png",
+    "static/media/p5.png": "/portafolio/static/media/p5.abbd6a98c9b603a0dc03.png",
+    "static/media/p6.png": "/portafolio/static/media/p6.b4f0848722e038e44925.png",
+    "static/media/p9.png": "/portafolio/static/media/p9.57eb8f13d70499849e24.png",
+    "static/media/cv.pdf": "/portafolio/static/media/cv.5475b733ae80ddb44aab.pdf",
+    "index.html": "/portafolio/index.html",
+    "static/media/wallpaper5.svg": "/portafolio/static/media/wallpaper5.a500b855e5f6f10c34af59d3ad7be5c5.svg",
+    "main.e6d24f33.css.map": "/portafolio/static/css/main.e6d24f33.css.map",
+    "main.4b809c19.js.map": "/portafolio/static/js/main.4b809c19.js.map"
   },
   "entrypoints": [
     "static/css/main.e6d24f33.css",
-    "static/js/main.17f8643b.js"
+    "static/js/main.4b809c19.js"
   ]
 }
