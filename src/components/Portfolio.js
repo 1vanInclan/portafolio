@@ -14,8 +14,7 @@ const Portfolio = () => {
                     Mis ultimos trabajos
                 </h2>
                 <p className='subtitle'>
-                    Te presento algunos proyectos que he realizado en cursos y por mi cuenta.
-                    Los botones debajo de cada uno de ellos estan asignados para ver el codigo y su demo :)
+                Te presento algunos proyectos que he realizado en cursos y por mi cuenta. Los botones debajo de cada uno de ellos están asignados para ver el código y su demo ✌
                 </p>
                 </Slide>                
             </div>

@@ -11,6 +11,10 @@ import {
 } from 'react-icons/fa';
 
 import {
+  RiFileUserFill
+} from 'react-icons/ri'
+
+import {
   FiLayout,
   FiSettings,
   FiPenTool,
@@ -30,6 +34,7 @@ import Project6 from './assets/img/projects/p6.png';
 import Project7 from './assets/img/projects/p7.png';
 import Project8 from './assets/img/projects/p8.png';
 import Project9 from './assets/img/projects/p9.png';
+import Project10 from './assets/img/projects/p10.png';
 
 
 // skills images
@@ -118,6 +123,14 @@ export const projectsData = [
     git: 'https://github.com/1vanInclan/Socket-Bandas',
     link: 'https://1vaninclan.github.io/socket-band-prod/',
   },
+  {
+    id: '10',
+    image: Project10,
+    name: 'React Rick & Morty',
+    category: 'react',
+    git: 'https://github.com/1vanInclan/react-rick-y-morty',
+    link: 'https://1vaninclan.github.io/react-rick-y-morty/',
+  },
 
 ];
 
@@ -148,7 +161,7 @@ export const navigation = [
 // social
 export const social = [
   {
-    icon: <FaFileAlt/>,
+    icon: <RiFileUserFill/>,
     href: PDF,
   },
   {

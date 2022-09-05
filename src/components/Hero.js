@@ -22,7 +22,7 @@ const Hero = () => {
               <h1 className='text-3xl leading-[44px] md:text-5xl md:leading-tight lg:text-5xl lg:leading-[1.2] font-light md:tracking-[-2px] pb-8 md:pt-6 md:pb-12'  >
               <Typewriter
                 options={{
-                  strings: ['Ingeniero en Computacion'],
+                  strings: ['Ingeniero en computación'],
                   delay: 'natural',
                   autoStart: true,
                   loop: true,
