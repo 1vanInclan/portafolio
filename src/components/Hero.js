@@ -19,11 +19,12 @@ const Hero = () => {
             {/* left side */}
             <div className='flex-1 flex flex-col items-center lg:items-start'>
               <p className='text-4xl lg:text-6xl  text-accent mb-[22px]'>Ivan Inclan</p>
-              <h1 className='text-3xl leading-[44px] md:text-5xl md:leading-tight lg:text-5xl lg:leading-[1.2] font-light md:tracking-[-2px] pb-8 md:pt-6 md:pb-12'  >
+              <h1 className='text-2xl leading-[44px] md:text-5xl md:leading-tight lg:text-5xl lg:leading-[1.2] font-light md:tracking-[-2px] pb-8 md:pt-6 md:pb-12 text-center lg:text-left'  >
               <Typewriter
                 options={{
                   strings: ['Ingeniero en computación'],
                   delay: 'natural',
+                  deleteSpeed: 'natural',
                   autoStart: true,
                   loop: true,
                 }}
@@ -37,7 +38,7 @@ const Hero = () => {
             </div>
             {/* right side */}
             <div className='hidden lg:flex flex-1 justify-center items-center h-4/5'>
-              <img src={ajolote} alt='' className='h-4/5' />
+              <img src={ajolote} alt='' className='h-4/5'/>
             </div>
           </div>
         </div>
