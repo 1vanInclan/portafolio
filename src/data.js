@@ -35,6 +35,7 @@ import Project7 from './assets/img/projects/p7.png';
 import Project8 from './assets/img/projects/p8.png';
 import Project9 from './assets/img/projects/p9.png';
 import Project10 from './assets/img/projects/p10.png';
+import Project11 from './assets/img/projects/p11.png'
 
 
 // skills images
@@ -130,6 +131,14 @@ export const projectsData = [
     category: 'react',
     git: 'https://github.com/1vanInclan/react-rick-y-morty',
     link: 'https://1vaninclan.github.io/react-rick-y-morty/',
+  },
+  {
+    id: '11',
+    image: Project11,
+    name: 'React Giphy Api',
+    category: 'react',
+    git: 'https://github.com/1vanInclan/giphy-react',
+    link: 'https://1vaninclan.github.io/giphy-react/',
   },
 
 ];
