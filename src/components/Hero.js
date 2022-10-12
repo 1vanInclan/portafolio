@@ -38,7 +38,7 @@ const Hero = () => {
             </div>
             {/* right side */}
             <div className='hidden lg:flex flex-1 justify-center items-center h-4/5'>
-              <img src={ajolote} alt='' className='h-4/5'/>
+              <img src={ajolote} alt='' className='h-4/5 shake'/>
             </div>
           </div>
         </div>

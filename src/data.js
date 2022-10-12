@@ -1,5 +1,5 @@
 // Documentos
-import PDF from '../src/document/cv.pdf';
+import PDF from '../src/document/CV.pdf';
 import Bigdata from '../src/document/BigData.pdf';
 import IntroBBDD from '../src/document/IntroBBDD.pdf';
 

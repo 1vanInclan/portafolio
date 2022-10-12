@@ -17,10 +17,10 @@ const Project = ({item}) => {
         {item.name}
       </h3>
       <div className='flex flex-row text-white'>
-        <a className='cursor-pointer capitalize m-4 bg-accent hover:bg-accent-hover transition-all rounded-lg p-5 hover:animate-pulse' href={item.git} >
+        <a className='cursor-pointer capitalize m-4 bg-accent hover:bg-accent-hover transition-all rounded-lg p-5 hover:animate-pulse' href={item.git} target="_blank"  >
             <ImEmbed2 className='text-xl'/>
         </a>
-        <a className='cursor-pointer capitalize m-4 bg-accent hover:bg-accent-hover transition-all rounded-lg p-5 hover:animate-pulse' href={item.link}>
+        <a className='cursor-pointer capitalize m-4 bg-accent hover:bg-accent-hover transition-all rounded-lg p-5 hover:animate-pulse' href={item.link} target="_blank" >
           <ImSphere className='text-xl'/>
         </a>
       </div>

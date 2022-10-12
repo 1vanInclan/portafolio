@@ -12,10 +12,10 @@ const Nav = () => {
       <ul className='flex space-x-8 capitalize text-[15px]'>
         {navigation.map((item, index) => {
           return (
-            <li className='text-white hover:text-accent cursor-pointer' key={index}>
+            <li className='text-white hover:text-accent cursor-pointer ' key={index}>
               <Link 
                 to={item.href} 
-                activeClass='active' 
+                activeClass='active underline underline-offset-4 decoration-solid' 
                 spy={true} 
                 smooth={true} 
                 duration={500} 

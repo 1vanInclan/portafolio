@@ -14,7 +14,7 @@ const Footer = () => {
                 <div className='flex space-x-6 items-center justify-center'>
                     {social.map((item, index) => {
                         return(
-                            <a className='text-accent text-4xl' href={item.href} key={index}>
+                            <a className='text-accent text-4xl' href={item.href} key={index} target="_blank">
                                 {item.icon}
                             </a>
                         );                            
