@@ -1,5 +1,4 @@
 import React from 'react'
-import { Fade, Roll, Slide } from "react-awesome-reveal";
 
 import Resumen from './Resumen';
 
@@ -11,7 +10,6 @@ const About = () => {
             {/* <img  className='object-cover h-full w-[566px] md:mx-auto lg:mx-0 rounded-2xl' src={Image} alt=''/> */}
             <div className='flex flex-col items-center text-center lg:items-start lg:text-center mb-10'>
                 <div className='flex flex-col'>
-                    <Slide cascade delay={10} duration={500} triggerOnce>
                     <h2 className='text-3xl lg:text-4xl font-medium lg:font-extrabold mb-3'>
                         Sobre mi
                     </h2>
@@ -27,15 +25,12 @@ const About = () => {
                     En estos momentos, sigo incursionando en nuevas tecnologías para aprender y desarrollar en distintas áreas.
                     <br/>
                     Posdata: Me gustan mucho las tortugas. 😍
-                    </p>
-                    </Slide>                    
+                    </p>                  
                 </div>
                 {/* <button className='btn btn-md bg-accent hover:bg-accent-hover transition-all' to='contact'>Contact me</button> */}
             </div>
         </div>
-        <Slide delay={10} duration={500} triggerOnce>
             <Resumen />
-        </Slide>
     </div>
   </section>
 
