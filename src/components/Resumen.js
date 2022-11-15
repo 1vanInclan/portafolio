@@ -43,7 +43,8 @@ const Resumen = () => {
                                         <div className='mb-2' key={index}>
                                             <h2 className='font-bold pb-1'>{item.name}</h2>
                                             <span className='bg-secondary text-white mb-2'>{item.date}</span>
-                                            <a href={item.link} target="_blank" className='ml-4 pl-2 pr-2 bg-accent hover:bg-accent-hover hover:animate-pulse text-white rounded-lg'>Link</a>
+                                            <a href={item.link} target="_blank"
+                                            rel="noreferrer" className='ml-4 pl-2 pr-2 bg-accent hover:bg-accent-hover hover:animate-pulse text-white rounded-lg'>Link</a>
                                         </div>
                                     )
                                 })}

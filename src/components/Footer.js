@@ -14,7 +14,7 @@ const Footer = () => {
                 <div className='flex space-x-6 items-center justify-center'>
                     {social.map((item, index) => {
                         return(
-                            <a className='text-accent text-4xl' href={item.href} key={index} target="_blank">
+                            <a className='text-accent text-4xl' href={item.href} key={index} target="_blank" rel="noreferrer">
                                 {item.icon}
                             </a>
                         );                            
@@ -23,7 +23,7 @@ const Footer = () => {
                 {/* copyright */}
                 <p>&copy; 2022 Ivan Inclan. All rights reserved.</p>
                 {/* title */}
-                <a href='#'>
+                <a href='/#'>
                     <h1 className='text-xl'>Ivan IA</h1>
                 </a>
             </div>

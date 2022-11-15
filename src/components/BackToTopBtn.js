@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react'
 
 // import link
 
-import {Link, animateScroll as scroll} from 'react-scroll';
+import {animateScroll as scroll} from 'react-scroll';
 
 // import icon
 

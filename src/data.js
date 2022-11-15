@@ -7,7 +7,6 @@ import IntroBBDD from '../src/document/IntroBBDD.pdf';
 import {
   FaGithub,
   FaLinkedin,
-  FaFileAlt,
 } from 'react-icons/fa';
 
 import {

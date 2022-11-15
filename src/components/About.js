@@ -1,4 +1,5 @@
 import React from 'react'
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 import Resumen from './Resumen';
 
@@ -8,13 +9,15 @@ const About = () => {
     <div className='container mx-auto'>
         <div className='flex flex-col xl:flex-row gap-24'>
             {/* <img  className='object-cover h-full w-[566px] md:mx-auto lg:mx-0 rounded-2xl' src={Image} alt=''/> */}
-            <div className='flex flex-col items-center text-center lg:items-start lg:text-center mb-10'>
+            
+            <div className='flex flex-col items-center text-center lg:items-start lg:text-center mb-10 '>
                 <div className='flex flex-col'>
-                    <h2 className='text-3xl lg:text-4xl font-medium lg:font-extrabold mb-3'>
+                    <h2 className='text-3xl lg:text-4xl font-medium lg:font-extrabold mb-3 '>
                         Sobre mi
                     </h2>
                     <p className='mb-4 text-accent'>Ingeniero en Computacion - Desarrollador Web</p>
                     <hr className='mb-8 opacity-5'/>
+                    <AnimationOnScroll animateIn='animate__fadeIn' animateOnce={true}>
                     <p className='mb-8 text-start'>
                     ¡Hola! Mi nombre es Iván, y desde niño siempre me llamó mucho la atención todo lo relacionado a la tecnología. Estudié ingeniería en computación y durante la experiencia, me apasionó todo lo que conlleva esta hermosa carrera, desde la programación, la innovación, hasta el cómputo en la nube, etc.
                     <br/>
@@ -25,12 +28,16 @@ const About = () => {
                     En estos momentos, sigo incursionando en nuevas tecnologías para aprender y desarrollar en distintas áreas.
                     <br/>
                     Posdata: Me gustan mucho las tortugas. 😍
-                    </p>                  
+                    </p>
+                    </AnimationOnScroll>
+                                      
                 </div>
                 {/* <button className='btn btn-md bg-accent hover:bg-accent-hover transition-all' to='contact'>Contact me</button> */}
             </div>
         </div>
+        <AnimationOnScroll animateIn='animate__fadeIn' animateOnce={true}>
             <Resumen />
+        </AnimationOnScroll>
     </div>
   </section>
 

@@ -1,11 +1,13 @@
 import React from 'react'
-import { Fade, Roll, Slide } from "react-awesome-reveal";
 //  icons
 import {ImEmbed2, ImSphere} from 'react-icons/im';
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 const Project = ({item}) => {
   return (
-    <Slide delay={10} duration={500} triggerOnce>
+        <AnimationOnScroll animateIn='animate__fadeIn' animateOnce={true}>
+
+
           <div key={item.id} className=' w-70 h-[500px] bg-secondary rounded-xl flex flex-col items-center text-center'>
       <div className='mb-8 w-full h-[60%] rounded-t-xl object-none overflow-hidden'>
         <img className='w-full h-full ' src={item.image} alt='' />
@@ -17,17 +19,17 @@ const Project = ({item}) => {
         {item.name}
       </h3>
       <div className='flex flex-row text-white'>
-        <a className='cursor-pointer capitalize m-4 bg-accent hover:bg-accent-hover transition-all rounded-lg p-5 hover:animate-pulse' href={item.git} target="_blank"  >
+        <a className='cursor-pointer capitalize m-4 bg-accent hover:bg-accent-hover transition-all rounded-lg p-5 hover:animate-pulse' href={item.git} target="_blank" rel="noreferrer"  >
             <ImEmbed2 className='text-xl'/>
         </a>
-        <a className='cursor-pointer capitalize m-4 bg-accent hover:bg-accent-hover transition-all rounded-lg p-5 hover:animate-pulse' href={item.link} target="_blank" >
+        <a className='cursor-pointer capitalize m-4 bg-accent hover:bg-accent-hover transition-all rounded-lg p-5 hover:animate-pulse' href={item.link} target="_blank" rel="noreferrer" >
           <ImSphere className='text-xl'/>
         </a>
       </div>
     </div>
-    </Slide>
 
-    
+
+    </AnimationOnScroll>
     
   )
 }

@@ -1,5 +1,5 @@
 {
-  "homepage":"https://1vaninclan.github.io/portafolio",
+  "homepage": "https://1vaninclan.github.io/portafolio",
   "name": "portfolio-website-main",
   "version": "0.1.0",
   "private": true,
@@ -8,7 +8,7 @@
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
     "react": "^17.0.2",
-    "react-awesome-reveal": "^4.0.1",
+    "react-animation-on-scroll": "^5.1.0",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.0",
     "react-tsparticles": "^2.2.4",
