@@ -22,7 +22,7 @@ const Contact = () => {
                
                 
             </div>
-            <AnimationOnScroll animateIn='animate__fadeIn' animateOnce={true}>
+            <AnimationOnScroll animateIn='animate__fadeIn' animateOnce={true} duration={2}>
 
             
             <div className='flex flex-col lg:gap-x-8 lg:flex-row '>

@@ -5,7 +5,7 @@ import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 const Project = ({item}) => {
   return (
-        <AnimationOnScroll animateIn='animate__fadeIn' animateOnce={true}>
+        <AnimationOnScroll animateIn='animate__fadeInLeft' animateOnce={true}>
 
 
           <div key={item.id} className=' w-70 h-[500px] bg-secondary rounded-xl flex flex-col items-center text-center'>
