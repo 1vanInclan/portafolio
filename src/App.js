@@ -14,6 +14,7 @@ import BackToTopBtn from './components/BackToTopBtn';
 const App = () => {
   return (
     <div>
+      {/* prueba */}
       <Header />
       <Hero />
       <About />
