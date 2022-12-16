@@ -1,5 +1,5 @@
 // Documentos
-import PDF from '../src/document/CV.pdf';
+import PDF from '../src/document/CV-ESP.pdf';
 import Bigdata from '../src/document/BigData.pdf';
 import IntroBBDD from '../src/document/IntroBBDD.pdf';
 import azureCert from '../src/document/Az-900.pdf';

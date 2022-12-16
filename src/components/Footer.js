@@ -26,7 +26,7 @@ const Footer = () => {
                 {/* copyright */}
                 <p>&copy; 2022 Ivan Inclan. All rights reserved.</p>
                 {/* title */}
-                <a href='/#'>
+                <a href='#'>
                     <h1 className='text-xl'>Ivan IA</h1>
                 </a>
             </div>
