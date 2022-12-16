@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/portafolio/static/css/main.2f07b855.css",
-    "main.js": "/portafolio/static/js/main.202d1527.js",
+    "main.css": "/portafolio/static/css/main.4c66a0ba.css",
+    "main.js": "/portafolio/static/js/main.c0ab9c0a.js",
     "static/media/p1.jpg": "/portafolio/static/media/p1.1d71fd9261bae50cf128.jpg",
     "static/media/p11.png": "/portafolio/static/media/p11.0abbf6c12ba888538da8.png",
     "static/media/BigData.pdf": "/portafolio/static/media/BigData.c736de28c698b02c9a72.pdf",
     "static/media/IntroBBDD.pdf": "/portafolio/static/media/IntroBBDD.2ececa5d04695879ce36.pdf",
+    "static/media/Az-900.pdf": "/portafolio/static/media/Az-900.73e6584552725f693c34.pdf",
     "static/media/p3.png": "/portafolio/static/media/p3.8e9f116b4858ac0e1c4e.png",
     "static/media/p10.png": "/portafolio/static/media/p10.e16cc6b6baeaa449478d.png",
     "static/media/ajolote.png": "/portafolio/static/media/ajolote.758f335c98a3b897ab87.png",
@@ -19,11 +20,11 @@
     "static/media/CV.pdf": "/portafolio/static/media/CV.edb2c5ccf087fcf203fe.pdf",
     "index.html": "/portafolio/index.html",
     "static/media/wallpaper5.svg": "/portafolio/static/media/wallpaper5.a500b855e5f6f10c34af59d3ad7be5c5.svg",
-    "main.2f07b855.css.map": "/portafolio/static/css/main.2f07b855.css.map",
-    "main.202d1527.js.map": "/portafolio/static/js/main.202d1527.js.map"
+    "main.4c66a0ba.css.map": "/portafolio/static/css/main.4c66a0ba.css.map",
+    "main.c0ab9c0a.js.map": "/portafolio/static/js/main.c0ab9c0a.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f07b855.css",
-    "static/js/main.202d1527.js"
+    "static/css/main.4c66a0ba.css",
+    "static/js/main.c0ab9c0a.js"
   ]
 }
