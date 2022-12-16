@@ -27,7 +27,9 @@ const Resumen = () => {
                                     <span className='bg-secondary text-white'>2021 - 2022</span>
                                     <p className='lg:pb-1 lg:pt-1'>DGTIC, Dirección General de Cómputo y de Tecnologías de Información y Comunicación</p>
                                     <ul className='list-disc list-inside'>
-                                        <li>Desarrollo web</li>
+                                        <li>Desarrollo fullstack</li>
+                                        <li>Arquitectura UX/UI</li>
+                                        <li>Documentacion y analisis de proyectos</li>
                                     </ul>
                                 </ul>
                             </div>

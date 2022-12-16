@@ -99,11 +99,14 @@ const NavMobile = () => {
       {
         <ul className='flex space-x-6'>
         {social.map((item, index) => {
-          return <li className='flex justify-center items-center text-white' key={index}>
-            <a className='text-4xl' href={item.href} target="_blank" rel="noreferrer">
-              {item.icon}
-            </a>
-          </li>
+          return (
+            <li className='flex flex-col justify-center items-center text-white' key={index}>
+              <a className='text-4xl' href={item.href} target="_blank" rel="noreferrer">
+                {item.icon}
+              </a>
+              <p>{item.name}</p>
+            </li>
+          )
         })}
         </ul>
       }

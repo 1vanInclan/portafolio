@@ -2,6 +2,7 @@
 import PDF from '../src/document/CV.pdf';
 import Bigdata from '../src/document/BigData.pdf';
 import IntroBBDD from '../src/document/IntroBBDD.pdf';
+import azureCert from '../src/document/Az-900.pdf';
 
 //  icons
 import {
@@ -48,6 +49,8 @@ import SkillImg7 from './assets/img/skills/git.png';
 import SkillImg8 from './assets/img/skills/visual.png';
 import SkillImg9 from './assets/img/skills/graphql.png';
 import SkillImg10 from './assets/img/skills/mongo.png';
+import SkillImg11 from './assets/img/skills/redux.png';
+import SkillImg12 from './assets/img/skills/firebase.png';
 
 // projects
 export const projectsData = [
@@ -170,14 +173,17 @@ export const navigation = [
 export const social = [
   {
     icon: <RiFileUserFill/>,
+    name: 'CV',
     href: PDF,
   },
   {
     icon: <FaLinkedin />,
+    name: 'Linkedin',
     href: 'https://www.linkedin.com/in/alberto-ivan-inclan/',
   },
   {
     icon: <FaGithub />,
+    name: 'Github',
     href: 'https://github.com/1vanInclan',
   },
 ];
@@ -189,18 +195,18 @@ export const certifications = [
     id: '1',
     name: 'Microsoft Azure Fundamentals',
     date: 'Junio 2022',
-    link: 'https://www.credly.com/badges/1a301dfc-4ba2-428a-9033-4aaeb9b701ee/linked_in_profile'
+    link: azureCert,
   },
   {
     id: '2',
     name: 'Big Data: Introducción, entorno y herramientas',
-    date: '2021',
+    date: 'Febrero 2021',
     link: Bigdata,
   },
   {
     id: '3',
     name: 'Introducción a bases de datos',
-    date: '2021',
+    date: 'Febrero 2021',
     link: IntroBBDD,
   },
 ];
@@ -225,34 +231,52 @@ export const projectsNav = [
 export const skills = [
   {
     image: SkillImg1,
+    name: 'HTML'
   },
   {
     image: SkillImg2,
+    name: 'CSS'
   },
   {
     image: SkillImg3,
+    name: 'Javascript'
   },
   {
     image: SkillImg4,
+    name: 'React JS'
   },
   {
     image: SkillImg5,
+    name: 'Apollo server'
   },
   {
     image: SkillImg6,
+    name: 'Node JS'
   },
   {
     image: SkillImg7,
+    name: 'GIT'
   },
   {
     image: SkillImg8,
+    name: 'VS CODE'
   },
   {
     image: SkillImg9,
+    name: 'GraphQL'
   },
   {
     image: SkillImg10,
+    name: 'MongoDB'
   },
+  {
+    image: SkillImg11,
+    name: 'Redux'
+  },
+  {
+    image: SkillImg12,
+    name: 'Firebase'
+  }
 ];
 
 // services
