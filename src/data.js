@@ -25,17 +25,18 @@ import {
 
 
 // projects images
-import Project1 from './assets/img/projects/p1.jpg';
-import Project2 from './assets/img/projects/p2.png';
-import Project3 from './assets/img/projects/p3.png';
-import Project4 from './assets/img/projects/p4.png';
-import Project5 from './assets/img/projects/p5.png';
-import Project6 from './assets/img/projects/p6.png';
-import Project7 from './assets/img/projects/p7.png';
-import Project8 from './assets/img/projects/p8.png';
-import Project9 from './assets/img/projects/p9.png';
-import Project10 from './assets/img/projects/p10.png';
-import Project11 from './assets/img/projects/p11.png'
+import Project1 from './assets/img/projects/p1.webp';
+import Project2 from './assets/img/projects/p2.webp';
+import Project3 from './assets/img/projects/p3.webp';
+import Project4 from './assets/img/projects/p4.webp';
+import Project5 from './assets/img/projects/p5.webp';
+import Project6 from './assets/img/projects/p6.webp';
+import Project7 from './assets/img/projects/p7.webp';
+import Project8 from './assets/img/projects/p8.webp';
+import Project9 from './assets/img/projects/p9.webp';
+import Project10 from './assets/img/projects/p10.webp';
+import Project11 from './assets/img/projects/p11.webp';
+import Project12 from './assets/img/projects/p12.webp';
 
 
 // skills images
@@ -142,6 +143,14 @@ export const projectsData = [
     git: 'https://github.com/1vanInclan/giphy-react',
     link: 'https://1vaninclan.github.io/giphy-react/',
   },
+  {
+    id: '12',
+    image: Project12,
+    name: 'Journal app - Redux & Firebase',
+    category: 'react',
+    git: 'https://github.com/1vanInclan/diario-app',
+    link: 'https://1vaninclan.github.io/diario-app/',
+  }
 
 ];
 
@@ -314,7 +323,7 @@ export const contact = [
     icon: <FiMail />,
     title: '¿Tienes una pregunta?',
     subtitle: 'Aqui estoy para ayudarte',
-    description: 'Enviame un correo a ivaninclan88@aragon.unam.mx',
+    description: 'Enviame un correo a ivaninclan89@aragon.unam.mx',
   },
   {
     icon: <FiMapPin />,

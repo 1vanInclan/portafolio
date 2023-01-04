@@ -15,8 +15,8 @@ const About = () => {
                     <h2 className='text-3xl lg:text-4xl font-medium lg:font-extrabold mb-3 '>
                         Sobre mi
                     </h2>
-                    <p className='mb-4 text-accent'>Ingeniero en Computacion - Desarrollador Web</p>
                     <hr className='mb-8 opacity-5'/>
+                    <p className='mb-4 text-accent'>Ingeniero en Computacion - Desarrollador Web</p>
                     <AnimationOnScroll animateIn='animate__fadeIn' animateOnce={true} duration={2}>
                     <p className='mb-8 text-start'>
                     ¡Hola! Mi nombre es Iván, y desde niño siempre me llamó mucho la atención todo lo relacionado a la tecnología. Estudié ingeniería en computación y durante la experiencia, me apasionó todo lo que conlleva esta hermosa carrera, desde la programación, la innovación, hasta el cómputo en la nube, etc.

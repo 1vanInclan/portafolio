@@ -11,7 +11,7 @@ const Portfolio = () => {
             <div className='flex flex-col items-center text-center'>
 
                 <h2 className='section-title'>
-                    Mis ultimos trabajos
+                    Portafolio
                 </h2>
                 <p className='subtitle'>
                 Te presento algunos proyectos que he realizado en cursos y por mi cuenta. Los botones debajo de cada uno de ellos están asignados para ver el código y su demo ✌

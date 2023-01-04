@@ -63,7 +63,7 @@ const NavMobile = () => {
     variants={circleVariants} 
     initial='hidden' 
     animate={isOpen ? 'visible' : 'hidden'} 
-    className='w-4 h-4 rounded-full bg-accent fixed top-0 right-0'>
+    className='w-4 h-4 rounded-full bg-accent opacity-95 fixed top-0 right-0'>
     </motion.div>
 
     {/* Menu */}
@@ -100,7 +100,7 @@ const NavMobile = () => {
         <ul className='flex space-x-6'>
         {social.map((item, index) => {
           return (
-            <li className='flex flex-col justify-center items-center text-white' key={index}>
+            <li className='flex flex-col justify-center items-center  text-white' key={index}>
               <a className='text-4xl' href={item.href} target="_blank" rel="noreferrer">
                 {item.icon}
               </a>

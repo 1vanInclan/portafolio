@@ -4,8 +4,12 @@ import { certifications } from '../data';
 
 const Resumen = () => {
   return (
-            <div className='flex flex-col items-center text-center lg:items-start lg:text-left'>
-                <h2 className='text-3xl lg:text-4xl font-medium lg:font-extrabold mb-3'>Resumen</h2>
+            <div className='flex flex-col items-center text-center lg:items-start lg:text-center'>
+                <div className='flex flex-col justify-center min-w-full'>
+
+                <h2 className='text-3xl lg:text-4xl font-medium lg:font-extrabold mb-3 lg:text-center'>Resumen</h2>
+                <hr className='mb-8 opacity-5'/>
+                </div>
                 <div className='flex flex-col flex-wrap lg:flex-row justify-between w-full text-center lg:text-left text-white'>
                     <div className='pt-2 lg:w-5/12'>
                         <h2 className='text-3xl lg:text-4xl font-light mb-3'>Formacion Academica</h2>
@@ -24,12 +28,12 @@ const Resumen = () => {
                             <div className='items-start bg-tertiary rounded-lg'>
                                 <ul className="list-none text-2xl leading-[44px] md:text-3xl md:leading-tight lg:text-3xl lg:leading-[1.2] font-light md:tracking-[-2px] md:pt-2 md:pb-1 p-2">
                                     <h2 className='font-bold lg:pb-1'>Desarrollador FullStack</h2>
-                                    <span className='bg-secondary text-white'>2021 - 2022</span>
+                                    <span className='bg-secondary text-white'>02/2021 - 07/2022</span>
                                     <p className='lg:pb-1 lg:pt-1'>DGTIC, Dirección General de Cómputo y de Tecnologías de Información y Comunicación</p>
-                                    <ul className='list-disc list-inside'>
-                                        <li>Desarrollo fullstack</li>
-                                        <li>Arquitectura UX/UI</li>
+                                    <ul className='pl-7 list-disc list-outside text-left'>
                                         <li>Documentacion y analisis de proyectos</li>
+                                        <li>Arquitectura de la informacion (UX/UI)</li>
+                                        <li>Desarrollo fullstack (Frontend & Backend)</li>
                                     </ul>
                                 </ul>
                             </div>
@@ -44,9 +48,9 @@ const Resumen = () => {
                                     return (
                                         <div className='mb-2' key={index}>
                                             <h2 className='font-bold pb-1'>{item.name}</h2>
-                                            <span className='bg-secondary text-white mb-2'>{item.date}</span>
+                                            <span className='bg-secondary text-white p-1 rounded'>{item.date}</span>
                                             <a href={item.link} target="_blank"
-                                            rel="noreferrer" className='ml-4 pl-2 pr-2 bg-accent hover:bg-accent-hover hover:animate-pulse text-white rounded-lg'>Link</a>
+                                            rel="noreferrer" className='ml-4 p-1 bg-accent hover:bg-accent-hover hover:animate-pulse duration-300 text-white rounded'>Link</a>
                                         </div>
                                     )
                                 })}
