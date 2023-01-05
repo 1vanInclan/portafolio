@@ -9,19 +9,21 @@ import { Link } from 'react-scroll'
 const Nav = () => {
   return (
     <nav>
-      <ul className='flex space-x-8 capitalize text-[15px]'>
+      <ul className='flex items-center space-x-8 capitalize text-[15px]'>
         {navigation.map((item, index) => {
           return (
-            <li className='text-white hover:text-accent cursor-pointer ' key={index}>
+            <li className=' text-white hover:text-accent cursor-pointer' key={index}>
               <Link 
                 to={item.href} 
-                activeClass='active underline underline-offset-4 decoration-solid' 
+                activeClass='active bg-secondary p-2 rounded-full' 
                 spy={true} 
                 smooth={true} 
                 duration={500} 
                 offset={-70} 
-                className='transition-all duration-300'>
-                  {item.name}
+                className='flex flex-row items-center gap-1 transition-all duration-300'
+                >
+                      {item.icon}
+                      {item.name}
               </Link>
             </li>
           )

@@ -63,7 +63,7 @@ const NavMobile = () => {
     variants={circleVariants} 
     initial='hidden' 
     animate={isOpen ? 'visible' : 'hidden'} 
-    className='w-4 h-4 rounded-full bg-accent opacity-95 fixed top-0 right-0'>
+    className='w-4 h-4 rounded-full bg-secondary fixed top-0 right-0'>
     </motion.div>
 
     {/* Menu */}
@@ -77,18 +77,22 @@ const NavMobile = () => {
         <XIcon className='w-8 h-8'/>
       </div>
       {/* Contenido */}
+      <ul className='flex flex-col w-full pl-10 gap-5 mb-10'>
       {
         navigation.map((item, index)=> {
           return (
-          <li key={index} className='mb-8'>
+          <li key={index} className='w-full'>
             <Link 
             to={item.href} 
+            activeClass='text-accent'
+            spy={true}
             smooth={true} 
             duration={500} 
             offset={-70} 
-            className='text-xl cursor-pointer capitalize'
+            className='flex flex-row items-center justify-start gap-2 text-xl cursor-pointer capitalize'
             onClick={()=> setIsOpen(false)}
             >
+              {item.icon}
               {item.name}
             </Link>
           </li>
@@ -96,11 +100,12 @@ const NavMobile = () => {
           );
         })
       }
+      </ul>
       {
-        <ul className='flex space-x-6'>
+        <ul className='w-full flex justify-around'>
         {social.map((item, index) => {
           return (
-            <li className='flex flex-col justify-center items-center  text-white' key={index}>
+            <li className='flex flex-col justify-center items-center  text-accent' key={index}>
               <a className='text-4xl' href={item.href} target="_blank" rel="noreferrer">
                 {item.icon}
               </a>

@@ -11,18 +11,7 @@ const Resumen = () => {
                 <hr className='mb-8 opacity-5'/>
                 </div>
                 <div className='flex flex-col flex-wrap lg:flex-row justify-between w-full text-center lg:text-left text-white'>
-                    <div className='pt-2 lg:w-5/12'>
-                        <h2 className='text-3xl lg:text-4xl font-light mb-3'>Formacion Academica</h2>
-                        <div className=' bg-tertiary rounded-lg'>
-                            <ul className="list-none text-2xl leading-[44px] md:text-3xl md:leading-tight lg:text-3xl lg:leading-[1.2] font-light md:tracking-[-2px] md:pt-2 md:pb-1 p-2">
-                                <h2 className='font-bold lg:pb-1'>Licenciatura en Ingenieria en Computacion</h2>
-                                <span className='bg-secondary text-white'>2016 - 2020</span>
-                                <p className='lg:pb-1 lg:pt-1'>UNAM, Facultad de Estudios Superiores Aragón</p>
-                                <p>Pasante, 100% de créditos.</p>
-                            </ul>
-                        </div>
-                    </div>
-                    <div className='pt-2 lg:w-5/12'>
+                <div className='pt-2 lg:w-5/12'>
                         <div>
                             <h2 className='text-3xl lg:text-4xl font-light mb-3'>Experencia Profesional</h2>
                             <div className='items-start bg-tertiary rounded-lg'>
@@ -37,6 +26,17 @@ const Resumen = () => {
                                     </ul>
                                 </ul>
                             </div>
+                        </div>
+                    </div>
+                    <div className='pt-2 lg:w-5/12'>
+                        <h2 className='text-3xl lg:text-4xl font-light mb-3'>Formacion Academica</h2>
+                        <div className=' bg-tertiary rounded-lg'>
+                            <ul className="list-none text-2xl leading-[44px] md:text-3xl md:leading-tight lg:text-3xl lg:leading-[1.2] font-light md:tracking-[-2px] md:pt-2 md:pb-1 p-2">
+                                <h2 className='font-bold lg:pb-1'>Licenciatura en Ingenieria en Computacion</h2>
+                                <span className='bg-secondary text-white'>2016 - 2020</span>
+                                <p className='lg:pb-1 lg:pt-1'>UNAM, Facultad de Estudios Superiores Aragón</p>
+                                <p>Pasante, 100% de créditos.</p>
+                            </ul>
                         </div>
                     </div>
                     <div className='pt-2 lg:w-5/12'>

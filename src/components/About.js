@@ -17,7 +17,7 @@ const About = () => {
                     </h2>
                     <hr className='mb-8 opacity-5'/>
                     <p className='mb-4 text-accent'>Ingeniero en Computacion - Desarrollador Web</p>
-                    <AnimationOnScroll animateIn='animate__fadeIn' animateOnce={true} duration={2}>
+                    <AnimationOnScroll animateIn='animate__fadeIn' animateOnce={true} duration={1}>
                     <p className='mb-8 text-start'>
                     ¡Hola! Mi nombre es Iván, y desde niño siempre me llamó mucho la atención todo lo relacionado a la tecnología. Estudié ingeniería en computación y durante la experiencia, me apasionó todo lo que conlleva esta hermosa carrera, desde la programación, la innovación, hasta el cómputo en la nube, etc.
                     <br/>
@@ -35,7 +35,7 @@ const About = () => {
                 {/* <button className='btn btn-md bg-accent hover:bg-accent-hover transition-all' to='contact'>Contact me</button> */}
             </div>
         </div>
-        <AnimationOnScroll animateIn='animate__fadeIn' animateOnce={true} duration={2}>
+        <AnimationOnScroll animateIn='animate__fadeIn' animateOnce={true} duration={1}>
             <Resumen />
         </AnimationOnScroll>
     </div>

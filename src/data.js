@@ -21,6 +21,12 @@ import {
   FiTag,
   FiMail,
   FiMapPin,
+  FiHome,
+  FiSmile,
+  FiShield,
+  FiLock,
+
+
 } from 'react-icons/fi';
 
 
@@ -157,24 +163,29 @@ export const projectsData = [
 // navigation
 export const navigation = [
   {
-    name: 'home',
+    name: 'Home',
     href: 'home',
+    icon: <FiHome/>,
   },
   {
     name: 'Sobre mi',
     href: 'about',
+    icon: <FiSmile/>,
   },
   {
     name: 'Habilidades',
     href: 'skills',
+    icon: <FiShield/>,
   },
   {
     name: 'Portafolio',
     href: 'portfolio',
+    icon: <FiLock/>,
   },
   {
     name: 'Contacto',
     href: 'contact',
+    icon: <FiMapPin/>,
   },
 ];
 
@@ -202,7 +213,7 @@ export const social = [
 export const certifications = [
   {
     id: '1',
-    name: 'Microsoft Azure Fundamentals',
+    name: 'Microsoft Azure Fundamentals AZ-900',
     date: 'Junio 2022',
     link: azureCert,
   },
