@@ -1,4 +1,3 @@
-import React from 'react';
 
 // Import social data
 import {social} from '../data'

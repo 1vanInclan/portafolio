@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 // import components
 import Projects from '../components/Projects';

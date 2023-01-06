@@ -1,9 +1,13 @@
 module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
+    // fontFamily: {
+    //   primary: 'Work Sans',
+    //   body: 'Work Sans',
+    // },
     fontFamily: {
-      primary: 'Work Sans',
-      body: 'Work Sans',
+      primary: 'Noto+Sans',
+      body: 'Noto+Sans',
     },
     container: {
       padding: {

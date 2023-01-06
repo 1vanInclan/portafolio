@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import {useState} from 'react'
 
 // import navigation data
 import {navigation} from '../data'

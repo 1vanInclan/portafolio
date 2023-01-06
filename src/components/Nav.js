@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 // Import navigation data
 import {navigation} from '../data';
