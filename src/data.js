@@ -46,100 +46,100 @@ import Project12 from './assets/img/projects/p12.webp';
 
 
 // skills images
-import SkillImg1 from './assets/img/skills/html5.png';
-import SkillImg2 from './assets/img/skills/css3.png';
-import SkillImg3 from './assets/img/skills/js.png';
-import SkillImg4 from './assets/img/skills/reactjs.png';
-import SkillImg5 from './assets/img/skills/apollo.png';
-import SkillImg6 from './assets/img/skills/nodejs.png';
-import SkillImg7 from './assets/img/skills/git.png';
-import SkillImg8 from './assets/img/skills/visual.png';
-import SkillImg9 from './assets/img/skills/graphql.png';
-import SkillImg10 from './assets/img/skills/mongo.png';
-import SkillImg11 from './assets/img/skills/redux.png';
-import SkillImg12 from './assets/img/skills/firebase.png';
+import SkillImg1 from './assets/img/skills/html5.webp';
+import SkillImg2 from './assets/img/skills/css3.webp';
+import SkillImg3 from './assets/img/skills/js.webp';
+import SkillImg4 from './assets/img/skills/reactjs.webp';
+import SkillImg5 from './assets/img/skills/apollo.webp';
+import SkillImg6 from './assets/img/skills/nodejs.webp';
+import SkillImg7 from './assets/img/skills/git.webp';
+import SkillImg8 from './assets/img/skills/visual.webp';
+import SkillImg9 from './assets/img/skills/graphql.webp';
+import SkillImg10 from './assets/img/skills/mongo.webp';
+import SkillImg11 from './assets/img/skills/redux.webp';
+import SkillImg12 from './assets/img/skills/firebase.webp';
+import SkillImg13 from './assets/img/skills/azure.webp';
+import SkillImg14 from './assets/img/skills/bootstrap.webp';
+import SkillImg15 from './assets/img/skills/material-ui.webp';
+import SkillImg16 from './assets/img/skills/tailwind.webp';
+
+// skill
+export const skills = [
+  {
+    image: SkillImg1,
+    name: 'HTML'
+  },
+  {
+    image: SkillImg2,
+    name: 'CSS'
+  },
+  {
+    image: SkillImg3,
+    name: 'Javascript'
+  },
+  {
+    image: SkillImg4,
+    name: 'React JS'
+  },
+  {
+    image: SkillImg5,
+    name: 'Apollo server'
+  },
+  {
+    image: SkillImg6,
+    name: 'Node JS'
+  },
+  {
+    image: SkillImg7,
+    name: 'GIT'
+  },
+  {
+    image: SkillImg8,
+    name: 'VS CODE'
+  },
+  {
+    image: SkillImg9,
+    name: 'GraphQL'
+  },
+  {
+    image: SkillImg10,
+    name: 'MongoDB'
+  },
+  {
+    image: SkillImg11,
+    name: 'Redux'
+  },
+  {
+    image: SkillImg12,
+    name: 'Firebase'
+  },
+  {
+    image: SkillImg13,
+    name: 'Azure'
+  },
+  {
+    image: SkillImg14,
+    name: 'Bootstrap 5'
+  },
+  {
+    image: SkillImg15,
+    name: 'Material UI'
+  },
+  {
+    image: SkillImg16,
+    name: 'Tailwind CSS'
+  },
+];
 
 // projects
 export const projectsData = [
   {
-    id: '1',
-    image: Project1,
-    name: 'Formulario tarjeta',
-    category: 'js',
-    git: 'https://github.com/1vanInclan/formulario-tarjeta',
-    link: 'https://1vaninclan.github.io/formulario-tarjeta/',
-  },
-  {
-    id: '2',
-    image: Project2,
-    name: 'formulario de registro',
-    category: 'js',
-    git: 'https://github.com/1vanInclan/Intro-component-with-sign-up-form',
-    link: 'https://1vaninclan.github.io/Intro-component-with-sign-up-form/',
-  },
-  {
-    id: '3',
-    image: Project3,
-    name: 'Directorio con tarjetas flip',
-    category: 'js',
-    git: 'https://github.com/1vanInclan/Tarjetas-flip',
-    link: 'https://1vaninclan.github.io/Tarjetas-flip/',
-  },
-  {
-    id: '4',
-    image: Project4,
-    name: 'Seccion de 4 caracteristicas',
-    category: 'css',
-    git: 'https://github.com/1vanInclan/Four-card-feature-section',
-    link: 'https://1vaninclan.github.io/Four-card-feature-section/',
-  },
-  {
-    id: '5',
-    image: Project5,
-    name: 'introduccion sencilla',
-    category: 'css',
-    git: 'https://github.com/1vanInclan/Huddle-landing-page-with-a-single-introductory-section',
-    link: 'https://1vaninclan.github.io/Huddle-landing-page-with-a-single-introductory-section/',
-  },
-  {
-    id: '6',
-    image: Project6,
-    name: 'tarjeta de perfil',
-    category: 'css',
-    git: 'https://github.com/1vanInclan/Profile-card-component',
-    link: 'https://1vaninclan.github.io/Profile-card-component/',
-  },
-  {
-    id: '7',
-    image: Project7,
-    name: 'Grid con precios',
-    category: 'css',
-    git: 'https://github.com/1vanInclan/Single-price-grid',
-    link: 'https://1vaninclan.github.io/Single-price-grid/',
-  },
-  {
-    id: '8',
-    image: Project8,
-    name: 'Seccion de comentarios',
-    category: 'css',
-    git: 'https://github.com/1vanInclan/Social-proof-section',
-    link: 'https://1vaninclan.github.io/Social-proof-section/',
-  },
-  {
-    id: '9',
-    image: Project9,
-    name: 'React socket bands',
+    id: '12',
+    image: Project12,
+    name: 'Journal app - Redux & Firebase',
     category: 'react',
-    git: 'https://github.com/1vanInclan/Socket-Bandas',
-    link: 'https://1vaninclan.github.io/socket-band-prod/',
-  },
-  {
-    id: '10',
-    image: Project10,
-    name: 'React Rick & Morty',
-    category: 'react',
-    git: 'https://github.com/1vanInclan/react-rick-y-morty',
-    link: 'https://1vaninclan.github.io/react-rick-y-morty/',
+    git: 'https://github.com/1vanInclan/diario-app',
+    link: 'https://1vaninclan.github.io/diario-app/',
   },
   {
     id: '11',
@@ -150,14 +150,85 @@ export const projectsData = [
     link: 'https://1vaninclan.github.io/giphy-react/',
   },
   {
-    id: '12',
-    image: Project12,
-    name: 'Journal app - Redux & Firebase',
+    id: '10',
+    image: Project10,
+    name: 'React Rick & Morty',
     category: 'react',
-    git: 'https://github.com/1vanInclan/diario-app',
-    link: 'https://1vaninclan.github.io/diario-app/',
-  }
-
+    git: 'https://github.com/1vanInclan/react-rick-y-morty',
+    link: 'https://1vaninclan.github.io/react-rick-y-morty/',
+  },
+  {
+    id: '9',
+    image: Project9,
+    name: 'React socket bands',
+    category: 'react',
+    git: 'https://github.com/1vanInclan/Socket-Bandas',
+    link: 'https://1vaninclan.github.io/socket-band-prod/',
+  },
+  {
+    id: '8',
+    image: Project8,
+    name: 'Seccion de comentarios',
+    category: 'css',
+    git: 'https://github.com/1vanInclan/Social-proof-section',
+    link: 'https://1vaninclan.github.io/Social-proof-section/',
+  },
+  {
+    id: '7',
+    image: Project7,
+    name: 'Grid con precios',
+    category: 'css',
+    git: 'https://github.com/1vanInclan/Single-price-grid',
+    link: 'https://1vaninclan.github.io/Single-price-grid/',
+  },
+  {
+    id: '6',
+    image: Project6,
+    name: 'tarjeta de perfil',
+    category: 'css',
+    git: 'https://github.com/1vanInclan/Profile-card-component',
+    link: 'https://1vaninclan.github.io/Profile-card-component/',
+  },
+  {
+    id: '5',
+    image: Project5,
+    name: 'introduccion sencilla',
+    category: 'css',
+    git: 'https://github.com/1vanInclan/Huddle-landing-page-with-a-single-introductory-section',
+    link: 'https://1vaninclan.github.io/Huddle-landing-page-with-a-single-introductory-section/',
+  },
+  {
+    id: '4',
+    image: Project4,
+    name: 'Seccion de 4 caracteristicas',
+    category: 'css',
+    git: 'https://github.com/1vanInclan/Four-card-feature-section',
+    link: 'https://1vaninclan.github.io/Four-card-feature-section/',
+  },
+  {
+    id: '3',
+    image: Project3,
+    name: 'Directorio con tarjetas flip',
+    category: 'js',
+    git: 'https://github.com/1vanInclan/Tarjetas-flip',
+    link: 'https://1vaninclan.github.io/Tarjetas-flip/',
+  },
+  {
+    id: '2',
+    image: Project2,
+    name: 'formulario de registro',
+    category: 'js',
+    git: 'https://github.com/1vanInclan/Intro-component-with-sign-up-form',
+    link: 'https://1vaninclan.github.io/Intro-component-with-sign-up-form/',
+  },
+  {
+    id: '1',
+    image: Project1,
+    name: 'Formulario tarjeta',
+    category: 'js',
+    git: 'https://github.com/1vanInclan/formulario-tarjeta',
+    link: 'https://1vaninclan.github.io/formulario-tarjeta/',
+  },
 ];
 
 // navigation
@@ -247,57 +318,7 @@ export const projectsNav = [
   },
 ];
 
-// skill
-export const skills = [
-  {
-    image: SkillImg1,
-    name: 'HTML'
-  },
-  {
-    image: SkillImg2,
-    name: 'CSS'
-  },
-  {
-    image: SkillImg3,
-    name: 'Javascript'
-  },
-  {
-    image: SkillImg4,
-    name: 'React JS'
-  },
-  {
-    image: SkillImg5,
-    name: 'Apollo server'
-  },
-  {
-    image: SkillImg6,
-    name: 'Node JS'
-  },
-  {
-    image: SkillImg7,
-    name: 'GIT'
-  },
-  {
-    image: SkillImg8,
-    name: 'VS CODE'
-  },
-  {
-    image: SkillImg9,
-    name: 'GraphQL'
-  },
-  {
-    image: SkillImg10,
-    name: 'MongoDB'
-  },
-  {
-    image: SkillImg11,
-    name: 'Redux'
-  },
-  {
-    image: SkillImg12,
-    name: 'Firebase'
-  }
-];
+
 
 // services
 export const services = [
@@ -334,7 +355,7 @@ export const contact = [
     icon: <FiMail />,
     title: '¿Tienes una pregunta?',
     subtitle: 'Aqui estoy para ayudarte',
-    description: 'Enviame un correo a ivaninclan89@aragon.unam.mx',
+    description: 'Enviame un correo a ivaninclan88@aragon.unam.mx',
   },
   {
     icon: <FiMapPin />,

@@ -32,7 +32,7 @@ const About = () => {
                     </AnimationOnScroll>
                                       
                 </div>
-                {/* <button className='btn btn-md bg-accent hover:bg-accent-hover transition-all' to='contact'>Contact me</button> */}
+                {/* <button className='btn btn-md bg-accent hover:bg-accent-hover transition-all' to='contacto'>Contact me</button> */}
             </div>
         </div>
         <AnimationOnScroll animateIn='animate__fadeIn' animateOnce={true} duration={1}>
