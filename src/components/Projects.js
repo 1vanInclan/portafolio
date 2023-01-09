@@ -1,9 +1,8 @@
 import {useState, useEffect} from 'react'
 
 // import projects data
-import {projectsData} from '../data';
-// import projects nav data
-import {projectsNav} from '../data';
+import {projectsData, projectsNav} from '../data';
+
 
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 

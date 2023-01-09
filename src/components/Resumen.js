@@ -16,23 +16,23 @@ const Resumen = () => {
                             <div className='items-start bg-tertiary rounded-lg'>
                                 <ul className="list-none text-2xl leading-[44px] md:text-3xl md:leading-tight lg:text-3xl lg:leading-[1.2] font-light md:tracking-[-2px] md:pt-2 md:pb-1 p-2">
                                     <h2 className='font-bold lg:pb-1'>Desarrollador FullStack</h2>
-                                    <span className='bg-secondary text-white'>02/2021 - 07/2022</span>
-                                    <p className='lg:pb-1 lg:pt-1'>DGTIC, Dirección General de Cómputo y de Tecnologías de Información y Comunicación</p>
+                                    <span className='bg-secondary text-white p-1 rounded'>02/2021 - 07/2022</span>
+                                    <p className='lg:pb-1 lg:pt-1'>DGTIC, Dirección General de Cómputo y de Tecnologías de Información y Comunicación.</p>
                                     <ul className='pl-7 list-disc list-outside text-left'>
-                                        <li>Documentacion y analisis de proyectos</li>
-                                        <li>Arquitectura de la informacion (UX/UI)</li>
-                                        <li>Desarrollo fullstack (Frontend & Backend)</li>
+                                        <li>Documentación y análisis de proyectos.</li>
+                                        <li>Arquitectura de la información (UX/UI).</li>
+                                        <li>Desarrollo fullstack (Frontend & Backend).</li>
                                     </ul>
                                 </ul>
                             </div>
                         </div>
                     </div>
                     <div className='pt-2 lg:w-5/12'>
-                        <h2 className='text-3xl lg:text-4xl font-light mb-3'>Formacion Academica</h2>
+                        <h2 className='text-3xl lg:text-4xl font-light mb-3'>Formación Academica</h2>
                         <div className=' bg-tertiary rounded-lg'>
                             <ul className="list-none text-2xl leading-[44px] md:text-3xl md:leading-tight lg:text-3xl lg:leading-[1.2] font-light md:tracking-[-2px] md:pt-2 md:pb-1 p-2">
-                                <h2 className='font-bold lg:pb-1'>Licenciatura en Ingenieria en Computacion</h2>
-                                <span className='bg-secondary text-white'>2016 - 2020</span>
+                                <h2 className='font-bold lg:mb-2'>Licenciatura en Ingenieria en Computación</h2>
+                                <span className='bg-secondary text-white p-1 rounded'>2016 - 2020</span>
                                 <p className='lg:pb-1 lg:pt-1'>UNAM, Facultad de Estudios Superiores Aragón</p>
                                 <p>Pasante, 100% de créditos.</p>
                             </ul>
@@ -46,7 +46,7 @@ const Resumen = () => {
                                 {certifications.map((item, index) => {
                                     return (
                                         <div className='mb-2' key={index}>
-                                            <h2 className='font-bold pb-1'>{item.name}</h2>
+                                            <h2 className='font-bold mb-2'>{item.name}</h2>
                                             <span className='bg-secondary text-white p-1 rounded'>{item.date}</span>
                                             <a href={item.link} target="_blank"
                                             rel="noreferrer" className='ml-4 p-1 bg-accent hover:bg-accent-hover hover:animate-pulse duration-300 text-white rounded'>Link</a>

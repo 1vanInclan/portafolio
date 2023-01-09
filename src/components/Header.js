@@ -21,7 +21,7 @@ const Header = () => {
         <div className='container mx-auto h-full flex items-center justify-between'>
             {/* Logo */}
             <a href='#'>
-                <h1 className='text-xl'>Ivan IA</h1>
+                <h1 className='text-xl'>Iván IA</h1>
             </a>
             {/* Nav */}
             <div className='hidden lg:block'>

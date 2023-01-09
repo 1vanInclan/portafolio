@@ -14,7 +14,7 @@ const Portfolio = () => {
                     Portafolio
                 </h2>
                 <p className='subtitle'>
-                Te presento algunos proyectos que he realizado en cursos y por mi cuenta. Los botones debajo de cada uno de ellos están asignados para ver el código y su demo ✌
+                Te presento algunos proyectos, que he realizado en cursos y por mi cuenta. Los botones debajo de cada proyecto están asignados para ver el código y su demostración. 👌
                 </p>
               
             </div>

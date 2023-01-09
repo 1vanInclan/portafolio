@@ -24,10 +24,10 @@ const Footer = () => {
                     })}
                 </div>
                 {/* copyright */}
-                <p>&copy; 2022 Ivan Inclan. All rights reserved.</p>
+                <p>&copy; 2022 Iván Inclán. All rights reserved.</p>
                 {/* title */}
                 <a href='#'>
-                    <h1 className='text-xl'>Ivan IA</h1>
+                    <h1 className='text-xl'>Iván IA</h1>
                 </a>
             </div>
         </div>

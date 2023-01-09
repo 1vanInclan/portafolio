@@ -13,7 +13,7 @@ const Project = ({item}) => {
           <p className='capitalize text-accent text-sm mb-2'>
             {item.category}
           </p>
-          <h3 className='text-xl font-semibold capitalize mb-3'>
+          <h3 className='text-xl font-semibold mb-3'>
             {item.name}
           </h3>
           <div className='flex flex-row text-secondary '>

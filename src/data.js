@@ -144,7 +144,7 @@ export const projectsData = [
   {
     id: '11',
     image: Project11,
-    name: 'React Giphy Api',
+    name: 'Giphy api - React',
     category: 'react',
     git: 'https://github.com/1vanInclan/giphy-react',
     link: 'https://1vaninclan.github.io/giphy-react/',
@@ -152,7 +152,7 @@ export const projectsData = [
   {
     id: '10',
     image: Project10,
-    name: 'React Rick & Morty',
+    name: 'Rick & Morty api - React',
     category: 'react',
     git: 'https://github.com/1vanInclan/react-rick-y-morty',
     link: 'https://1vaninclan.github.io/react-rick-y-morty/',
@@ -160,7 +160,7 @@ export const projectsData = [
   {
     id: '9',
     image: Project9,
-    name: 'React socket bands',
+    name: 'Socket bands - React & Socket.io',
     category: 'react',
     git: 'https://github.com/1vanInclan/Socket-Bandas',
     link: 'https://1vaninclan.github.io/socket-band-prod/',
@@ -168,7 +168,7 @@ export const projectsData = [
   {
     id: '8',
     image: Project8,
-    name: 'Seccion de comentarios',
+    name: 'Comentarios - Static Page',
     category: 'css',
     git: 'https://github.com/1vanInclan/Social-proof-section',
     link: 'https://1vaninclan.github.io/Social-proof-section/',
@@ -176,7 +176,7 @@ export const projectsData = [
   {
     id: '7',
     image: Project7,
-    name: 'Grid con precios',
+    name: 'Suscripción - Static Page',
     category: 'css',
     git: 'https://github.com/1vanInclan/Single-price-grid',
     link: 'https://1vaninclan.github.io/Single-price-grid/',
@@ -184,7 +184,7 @@ export const projectsData = [
   {
     id: '6',
     image: Project6,
-    name: 'tarjeta de perfil',
+    name: 'Tarjeta de perfil - Static Page',
     category: 'css',
     git: 'https://github.com/1vanInclan/Profile-card-component',
     link: 'https://1vaninclan.github.io/Profile-card-component/',
@@ -192,7 +192,7 @@ export const projectsData = [
   {
     id: '5',
     image: Project5,
-    name: 'introduccion sencilla',
+    name: 'Introducción sencilla - Static Page',
     category: 'css',
     git: 'https://github.com/1vanInclan/Huddle-landing-page-with-a-single-introductory-section',
     link: 'https://1vaninclan.github.io/Huddle-landing-page-with-a-single-introductory-section/',
@@ -200,7 +200,7 @@ export const projectsData = [
   {
     id: '4',
     image: Project4,
-    name: 'Seccion de 4 caracteristicas',
+    name: 'Sección de 4 características -  Static Page',
     category: 'css',
     git: 'https://github.com/1vanInclan/Four-card-feature-section',
     link: 'https://1vaninclan.github.io/Four-card-feature-section/',
@@ -216,7 +216,7 @@ export const projectsData = [
   {
     id: '2',
     image: Project2,
-    name: 'formulario de registro',
+    name: 'Formulario de registro',
     category: 'js',
     git: 'https://github.com/1vanInclan/Intro-component-with-sign-up-form',
     link: 'https://1vaninclan.github.io/Intro-component-with-sign-up-form/',
@@ -224,7 +224,7 @@ export const projectsData = [
   {
     id: '1',
     image: Project1,
-    name: 'Formulario tarjeta',
+    name: 'Formulario tarjetas bancarias',
     category: 'js',
     git: 'https://github.com/1vanInclan/formulario-tarjeta',
     link: 'https://1vaninclan.github.io/formulario-tarjeta/',
@@ -359,8 +359,8 @@ export const contact = [
   },
   {
     icon: <FiMapPin />,
-    title: 'Locacion Actual',
-    subtitle: 'Mexico, Ciudad de Mexico',
+    title: 'Locación actual',
+    subtitle: 'México, Ciudad de México',
     description: 'Tlalpan',
   },
 ];

@@ -17,7 +17,7 @@ const Contact = () => {
                     Contacto
                 </h2>
                 <p className='subtitle text-accent'>
-                    Actualmente resido en La Ciudad de Mexico.
+                    Actualmente resido en la Ciudad de México.
                 </p>
                
                 

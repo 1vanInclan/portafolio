@@ -18,7 +18,7 @@ const Hero = () => {
           <div className='flex items-center h-full pt-8'>
             {/* left side */}
             <div className='flex-1 flex flex-col items-center lg:items-start'>
-              <p className='text-4xl lg:text-6xl  text-accent mb-[22px]'>Ivan Inclan</p>
+              <p className='text-4xl lg:text-6xl  text-accent mb-[22px]'>Iván Inclán</p>
               <h1 className='text-2xl leading-[44px] md:text-5xl md:leading-tight lg:text-5xl lg:leading-[1.2] font-light md:tracking-[-2px] pb-8 md:pt-6 md:pb-12 text-center lg:text-left'  >
               <Typewriter
                 options={{
