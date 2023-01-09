@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portafolio/static/css/main.60053b5b.css",
-    "main.js": "/portafolio/static/js/main.f27361df.js",
+    "main.css": "/portafolio/static/css/main.747236e6.css",
+    "main.js": "/portafolio/static/js/main.6ab1fb10.js",
     "static/media/BigData.pdf": "/portafolio/static/media/BigData.c736de28c698b02c9a72.pdf",
     "static/media/IntroBBDD.pdf": "/portafolio/static/media/IntroBBDD.2ececa5d04695879ce36.pdf",
     "static/media/Az-900.pdf": "/portafolio/static/media/Az-900.73e6584552725f693c34.pdf",
@@ -37,11 +37,11 @@
     "static/media/js.webp": "/portafolio/static/media/js.e149bcdbb7e827b89ea3.webp",
     "static/media/bootstrap.webp": "/portafolio/static/media/bootstrap.069916ef9956ed2fe46b.webp",
     "static/media/wallpaper5.svg": "/portafolio/static/media/wallpaper5.a500b855e5f6f10c34af59d3ad7be5c5.svg",
-    "main.60053b5b.css.map": "/portafolio/static/css/main.60053b5b.css.map",
-    "main.f27361df.js.map": "/portafolio/static/js/main.f27361df.js.map"
+    "main.747236e6.css.map": "/portafolio/static/css/main.747236e6.css.map",
+    "main.6ab1fb10.js.map": "/portafolio/static/js/main.6ab1fb10.js.map"
   },
   "entrypoints": [
-    "static/css/main.60053b5b.css",
-    "static/js/main.f27361df.js"
+    "static/css/main.747236e6.css",
+    "static/js/main.6ab1fb10.js"
   ]
 }
