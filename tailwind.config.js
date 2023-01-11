@@ -6,8 +6,8 @@ module.exports = {
     //   body: 'Work Sans',
     // },
     fontFamily: {
-      primary: 'Noto+Sans',
-      body: 'Noto+Sans',
+      primary: 'Open Sans',
+      body: 'Open Sans',
     },
     container: {
       padding: {

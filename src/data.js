@@ -62,6 +62,7 @@ import SkillImg13 from './assets/img/skills/azure.webp';
 import SkillImg14 from './assets/img/skills/bootstrap.webp';
 import SkillImg15 from './assets/img/skills/material-ui.webp';
 import SkillImg16 from './assets/img/skills/tailwind.webp';
+import SkillImg17 from './assets/img/skills/sass.webp';
 
 // skill
 export const skills = [
@@ -128,6 +129,10 @@ export const skills = [
   {
     image: SkillImg16,
     name: 'Tailwind CSS'
+  },
+  {
+    image: SkillImg17,
+    name: 'Sass'
   },
 ];
 
