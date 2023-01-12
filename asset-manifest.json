@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portafolio/static/css/main.747236e6.css",
-    "main.js": "/portafolio/static/js/main.a0031ffc.js",
+    "main.css": "/portafolio/static/css/main.1a96e9ff.css",
+    "main.js": "/portafolio/static/js/main.d3e06bb6.js",
     "static/media/BigData.pdf": "/portafolio/static/media/BigData.c736de28c698b02c9a72.pdf",
     "static/media/IntroBBDD.pdf": "/portafolio/static/media/IntroBBDD.2ececa5d04695879ce36.pdf",
     "static/media/Az-900.pdf": "/portafolio/static/media/Az-900.73e6584552725f693c34.pdf",
@@ -21,6 +21,7 @@
     "static/media/p2.webp": "/portafolio/static/media/p2.cb5112d0920920587bc2.webp",
     "static/media/reactjs.webp": "/portafolio/static/media/reactjs.30f3ca515d25be6886d6.webp",
     "static/media/redux.webp": "/portafolio/static/media/redux.513edffa20ec6103d5fb.webp",
+    "static/media/sass.webp": "/portafolio/static/media/sass.204bdef3947abbc4b82c.webp",
     "static/media/nodejs.webp": "/portafolio/static/media/nodejs.480457f0e4a30bb60c30.webp",
     "static/media/graphql.webp": "/portafolio/static/media/graphql.5f9dd1a5034d1d6026d7.webp",
     "static/media/apollo.webp": "/portafolio/static/media/apollo.efa4ed731e42e7cd2211.webp",
@@ -37,11 +38,11 @@
     "static/media/js.webp": "/portafolio/static/media/js.e149bcdbb7e827b89ea3.webp",
     "static/media/bootstrap.webp": "/portafolio/static/media/bootstrap.069916ef9956ed2fe46b.webp",
     "static/media/wallpaper5.svg": "/portafolio/static/media/wallpaper5.a500b855e5f6f10c34af59d3ad7be5c5.svg",
-    "main.747236e6.css.map": "/portafolio/static/css/main.747236e6.css.map",
-    "main.a0031ffc.js.map": "/portafolio/static/js/main.a0031ffc.js.map"
+    "main.1a96e9ff.css.map": "/portafolio/static/css/main.1a96e9ff.css.map",
+    "main.d3e06bb6.js.map": "/portafolio/static/js/main.d3e06bb6.js.map"
   },
   "entrypoints": [
-    "static/css/main.747236e6.css",
-    "static/js/main.a0031ffc.js"
+    "static/css/main.1a96e9ff.css",
+    "static/js/main.d3e06bb6.js"
   ]
 }
