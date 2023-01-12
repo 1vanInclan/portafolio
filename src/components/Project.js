@@ -6,7 +6,7 @@ import {ImEmbed2, ImEarth} from 'react-icons/im';
 const Project = ({item}) => {
   return (
 
-        <div key={item.id} className=' w-70 h-[500px] bg-secondary rounded-xl flex flex-col items-center text-center'>
+        <div key={item.id} className=' w-70 h-[500px] bg-secondary rounded-xl flex flex-col items-center text-center animate__animated animate__zoomIn '>
           <div className='mb-8 w-full h-[60%] rounded-t-xl object-none overflow-hidden'>
             <img className='w-full h-full ' src={item.image} alt='' />
           </div>
